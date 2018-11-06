@@ -1,0 +1,15 @@
+Manage mysql status:
+$ sudo service mysql restart
+
+Check mysql status:
+$ service mysql status
+
+Print network connections. -l, --listening:
+$ sudo netstat -ntlp
+
+Login mysql as the root user:
+$ mysql -u root (-p)
+
+mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '_password_';
+
+mysql> flush privileges;
